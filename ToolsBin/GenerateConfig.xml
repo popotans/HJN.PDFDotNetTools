@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGenerateConfigItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GenerateConfigItem>
+    <SqlMapConfigFile>E:\vs2008_project\PFT团队项目\FTS\FTS.DAL\SQLMap.config</SqlMapConfigFile>
+    <OutPutPath>E:\vs2008_project\PFT团队项目\FTS\temp</OutPutPath>
+    <RootNameSpace>TestWebAppDAL</RootNameSpace>
+  </GenerateConfigItem>
+  <GenerateConfigItem>
+    <SqlMapConfigFile>E:\\SQLMap.config</SqlMapConfigFile>
+    <OutPutPath>E:\temp</OutPutPath>
+    <RootNameSpace>TestDAL</RootNameSpace>
+  </GenerateConfigItem>
+</ArrayOfGenerateConfigItem>
