@@ -41,6 +41,7 @@ Partial Class frmEntityCreate
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PrgBarMakeFile = New System.Windows.Forms.ProgressBar()
         Me.btnMakeFile = New System.Windows.Forms.Button()
+        Me.btnOpenFolder = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         CType(Me.dgMapInfo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
@@ -167,6 +168,7 @@ Partial Class frmEntityCreate
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.btnOpenFolder)
         Me.GroupBox2.Controls.Add(Me.txtMakeLog)
         Me.GroupBox2.Controls.Add(Me.PropertyGrid1)
         Me.GroupBox2.Controls.Add(Me.btnSqlMapEntity)
@@ -225,6 +227,15 @@ Partial Class frmEntityCreate
         Me.btnMakeFile.Text = "&M 生成"
         Me.btnMakeFile.UseVisualStyleBackColor = True
         '
+        'btnOpenFolder
+        '
+        Me.btnOpenFolder.Location = New System.Drawing.Point(219, 20)
+        Me.btnOpenFolder.Name = "btnOpenFolder"
+        Me.btnOpenFolder.Size = New System.Drawing.Size(75, 23)
+        Me.btnOpenFolder.TabIndex = 6
+        Me.btnOpenFolder.Text = "打开文件夹"
+        Me.btnOpenFolder.UseVisualStyleBackColor = True
+        '
         'frmEntityCreate
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -261,4 +272,5 @@ Partial Class frmEntityCreate
     Friend WithEvents colFieldMap As System.Windows.Forms.DataGridViewButtonColumn
     Friend WithEvents colEntityFile As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents colFirstLook As System.Windows.Forms.DataGridViewLinkColumn
+    Friend WithEvents btnOpenFolder As System.Windows.Forms.Button
 End Class

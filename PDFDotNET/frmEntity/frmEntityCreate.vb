@@ -696,6 +696,10 @@ ORDER
     Private Sub PropertyGrid1_Click(sender As Object, e As EventArgs) Handles PropertyGrid1.Click
 
     End Sub
+
+    Private Sub btnOpenFolder_Click(sender As Object, e As EventArgs) Handles btnOpenFolder.Click
+        System.Diagnostics.Process.Start(Me.propWindow.OutputPath)
+    End Sub
 End Class
 
 Public Class EntityCreateProperty
